@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>What's The Weather Like?</title>
+	<link rel="shortcut icon" href="/img/sun.png" type="image/x-icon" />
+	<link rel="stylesheet" href="https://use.typekit.net/zpv5zoe.css">
+	<script src="https://kit.fontawesome.com/ca2692ca00.js" crossorigin="anonymous"></script>
+
+	<style>
+		body {
+			font-family: "clone-rounded-latin", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+            text-align: center;
+		}
+
+		header {
+			text-align: center;
+		}
+
+		.iconHeader {
+			color: #F9F54B;
+			font-size: 50px;
+		}
+
+		h1 {
+			font-family: "proxima-nova-condensed", sans-serif;
+			font-weight: 900;
+			font-style: normal;
+			color: magenta;
+			font-weight: 600;
+			font-size: 100px;
+			margin: 2px;
+		}
+
+		.tempToday {
+			font-family: "proxima-nova-condensed", sans-serif;
+			font-size: 50px;
+			margin: 2px auto 30px auto;
+		}
+
+		.minTempHeader{
+			font-weight: 100px;
+		}
+
+		i {
+			color: #FFACC7;
+		}
+
+		main {
+			text-align: center;
+		}
+
+		.weatherDay {
+			margin: 10px auto;
+			padding: 10px;
+			max-width: 30vw;
+			transition: all 250ms ease-in-out;
+		}
+
+		.weatherDay:hover {
+			background-color: pink;
+		}
+
+		.day {
+			font-weight: bold;
+			letter-spacing: 1px;
+		}
+
+		button {
+			font-family: "proxima-nova-condensed", sans-serif;
+			font-weight: 700;
+			margin: 30px;
+			padding: 3px;
+			width: 140px;
+			height: 60px;
+			font-size: 18px;
+			border: none;
+			border-radius: 30px;
+			cursor: pointer;
+			background-color: purple;
+			color: pink;
+			box-shadow: 3px 3px 10px magenta;
+			transition: all 200ms ease-in-out;
+		}
+
+		button:hover {
+			background-color: pink;
+			color: magenta;
+			border: solid 1px purple;
+		}
+
+		footer {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.devAlana {
+			font-family: "bimbo-pro-jumbo", sans-serif;
+			font-weight: 500;
+			font-size: 18px;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		a:link, a:visited {
+			color: #3C4048;
+		}
+
+		a:hover {
+			color: #82CD47;
+		}
+
+		a:active {
+			color: #F6FFDE;
+		}
+
+		.iconFooter {
+			color: #ff47a9;
+		}
+
+	</style>
+
+</head>
+<body>
+    <header>
+        <p><i class="fa-regular fa-sun fa-spin iconHeader"></i></p>
+</header>
+
+    <title>What's The Weather Like?</title>
+    <link href="src/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <h1>What's The Weather Like?</h1>
+          <div class="position-relative">
+            <div class="position-absolute top-100 start-50 translate-middle">
+              <div class="row">
+                <div class="col">
+                  <div class="searchengine">
+                    <input
+                      class="form-control form-control-lg"
+                      type="search"
+                      placeholder="city"
+                      aria-label=".form-control-lg example"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-primary btn-lg">
+                    Search
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="current">
+            <h2>Cagliari</h2>
+            <h3>Monday, 24° C<i class="fas fa-cloud-sun sun cloud"></i></h3>
+          </div>
+          <div class="overcast">
+            <div class="row">
+            
+                 Tuesday 24° 15° <i class="fas fa-cloud-sun"></i>
+        
+                 Wednesday 24° 15° <i class="fas fa-cloud-sun"></i>
+                
+                 Thursday 22° 12° <i class="fas fa-cloud-sun-rain"></i>
+        
+                 Friday 19° 14° <i class="fas fa-cloud-showers-heavy"></i>
+            
+                 Saturday 20° 15°<i class="fas fa-bolt"></i>
+            
+                 Sunday 19° 14° <i class="fas fa-cloud-sun"></i>
+
+	<footer>
+		<p>💻 coded by </p>
+		<a href="https://github.com/abracamagda" target="noopener">Amigdala 'Magda' Pala</a>
+	</footer>
+</body>
+</html>
